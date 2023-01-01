@@ -7,3 +7,19 @@
   font-family: 'Poppins', sans-serif;
   margin-left: 20px
 }
+
+.rightPaneContainer{
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.header{
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tableContainer{
+  margin-top: 20px;
+}

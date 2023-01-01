@@ -1,6 +1,7 @@
 import { React } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import DashboardLeftPane from './DashboardLeftPane';
+import DashboardRightPane from './DashboardRightPane';
 
 const Dashboard = () => {
     return(
@@ -10,7 +11,10 @@ const Dashboard = () => {
                     <Col sm={2} style={leftPaneColor}>
                         <DashboardLeftPane/>
                     </Col>
-                    <Col sm={10} style={rightPaneColor}>sm=4</Col>
+                    <Col sm={10} style={rightPaneColor}>
+                        <DashboardRightPane/>
+                        
+                    </Col>
                 </Row>
           
         </div>
@@ -18,6 +22,6 @@ const Dashboard = () => {
 }
 
 const leftPaneColor = {backgroundColor:"#2B613B"}
-const rightPaneColor = {backgroundColor:"red"}
+const rightPaneColor = {backgroundColor:""}
 
 export default Dashboard;
