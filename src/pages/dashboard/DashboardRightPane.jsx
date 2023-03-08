@@ -8,8 +8,14 @@ const DashboardRightPane = () => {
             <Home/>
 
             <div className='header'>
-                Orders
+                <div>Orders</div>
+
+                {/* <div style={{display:"flex", justifyContent:"space-around"}}>Orders</div> */}
+
+                
+                
             </div>
+            
             
             <div className='tableContainer'>
                 <TableComponent/>

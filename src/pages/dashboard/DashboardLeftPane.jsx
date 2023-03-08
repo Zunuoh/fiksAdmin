@@ -76,7 +76,7 @@ const DashboardLeftPane = () => {
     )
 }
 
-const options = {marginTop:15, display:"flex"}
+const options = {marginTop:20, display:"flex"}
 const leftPaneOptions = {marginLeft:8}
 
 export default DashboardLeftPane;
